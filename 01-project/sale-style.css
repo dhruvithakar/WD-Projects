@@ -1,0 +1,423 @@
+*{box-sizing: border-box; margin: 0; padding: 0;    font-family: 'Jost', Arial, sans-serif;}
+.main
+{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 4fr ;
+    grid-template-rows: 50px;  
+}
+.main .one
+{
+    background: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+}
+ .two
+{
+    display: grid;
+    grid-template-columns:4fr 1fr 2fr 2fr;
+    grid-template-rows: 70px;
+}
+.header ul
+{
+    padding: 20px;
+    margin-left: 50px;
+}
+.header ul li{
+  display: inline;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.header ul li:hover
+{
+    color: red;
+}
+.he 
+{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fa ul
+{
+   margin-left: 170px;
+  margin-top: 25px;
+}
+.fa ul li{
+  display: inline;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+}
+.hd ul
+{
+   margin-top: 25px;
+   
+}
+.hd ul li
+{
+    display: inline;
+    padding: 15px;
+    cursor: pointer;
+}
+.pic
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 550px;
+    position: relative;
+}
+.ba
+{
+  position: absolute;
+}
+.bb
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 230px;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.bb h2
+{
+    font-size: 80px;
+    color: red;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.bb p
+{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.bb button
+{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container
+		{
+			display: grid;
+			grid-template-columns: 2fr 2fr 2fr;  /*col : width*/
+			grid-template-rows: 300px;   /* row : height*/
+			padding: 25px;
+			grid-gap: 15px; 
+		}
+		.container .prd 
+		{
+            position: relative;
+		}
+        .prd h2{
+        
+            position: absolute;
+            margin-top: -190px;
+            font-size: 22px;
+            margin-left: 25px;
+            cursor: pointer;
+        }
+        .prd btn
+        {
+          position: absolute;
+          top: 155px;
+          left: 30px;
+          cursor: pointer;
+        }
+        .rock
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 60px;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 26px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .girl
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 70px;
+        }
+        .girl ul
+        {
+            margin-left:540px;
+            margin-top: 20px;
+        }
+        .girl ul li{
+            display: inline;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .girl ul li:hover
+        {
+            color: red;
+        }
+        .child
+        {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
+            grid-template-rows: 200px;
+            grid-gap: 25px;
+           padding: 22px;
+           padding-left: 100px;
+           cursor: pointer;
+        }
+        .boy
+        {
+            background: lightblue;
+        }
+        .boy span{
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 80px;
+            padding-top: 30px;
+        }
+    
+       .jeans
+       {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 550px;
+        grid-gap: 50px;
+        cursor: pointer;
+        margin-top: 50px;
+        padding: 45px;
+        position: absolute;
+       }
+       .sooj {
+          position: relative;
+         
+       }
+       .sooj span{
+        position: relative;
+        top:-600px ;
+        left:40px ;
+       }
+       .sooj p{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: -70px;
+        border:5px solid white;
+        background: white;
+        height:250px ;
+        width: 50%;
+        position: absolute;
+        left: 180px;
+        top: 100%;
+
+       }
+       .sooj btn
+       {
+        position: absolute;
+        margin-left: 230px;
+        margin-top: -20px;
+       }                 
+       .cap
+       {
+        display: grid;
+        grid-template-columns: 9fr;
+        grid-template-rows: 90px;
+        margin-top: 60%;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+       }
+       .volet
+       {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-rows: 250px;
+       }
+       .soks
+       {
+        padding: 15px;
+        cursor: pointer;
+       }
+       .soks p
+       {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 15px;
+        cursor: pointer;
+       }
+       .soks span
+       {
+         color: gray;
+         margin-left: 65px;
+         padding-top: 20px;
+         cursor: pointer;
+         font-weight: 600;
+       }
+      .line
+      {
+        display: grid;
+        grid-template-rows: 90px;
+        grid-template-columns: 1fr;
+      }
+      .skaff
+      {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 650px;
+        padding: 50px;
+        grid-gap: 30px;
+      }
+      .stoll
+      {
+        padding: 20px;
+      }
+      .ts p
+      {
+        text-align: center;
+        font-weight: 600;
+        color: gray;
+        margin-top: 30px;
+        font-size: 14px;
+      }
+      .ts h2
+      {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 28px;
+      }
+      .ts img
+      {
+        margin-top: 50px;
+        margin-left: 125px;
+      }
+      .ts h4
+      {
+        text-align: center;
+        padding-top: 15px;
+      }
+      .ts span
+      {
+        margin-left: 300px;
+        color: red;
+        font-weight: 600;
+        margin-top: 25px;
+      }
+      .test
+      {
+        display: grid;
+        grid-template-columns: 4fr;
+        grid-template-rows: 800px;
+        background:  whitesmoke;
+      }
+      .you p
+      {
+        text-align: center;
+        font-size: 14px;
+        color: gray;
+        font-weight: 600;
+        padding-top: 70px;
+      }
+      .you h2
+      {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 32px;
+        font-weight: 600;
+      }
+       .me
+      {
+        display: grid;
+        grid-template-columns:  2fr 2fr 2fr;
+        grid-template-rows: 300px;
+        grid-gap: 15px;
+      }
+      .me
+      {
+        margin-top: 90px;
+      }
+      .to 
+      {
+        padding: 12px;
+      }
+      .to p{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+       margin-right: 50px;
+        padding-top: 30px;
+        background: white;
+      }
+      .to h4
+      {
+        padding-top: 8px;
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        background: white;
+      }
+      .rol 
+      {
+        background:  whitesmoke;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        margin-top:-120px;
+      }
+      .car 
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px;
+        background: white;
+      }
+     .oa i
+     {
+      font-size: 40px;
+      margin-left: 20px;
+      font-weight: 500;
+      margin-top: 60px;
+     }
+     .oa h4{
+       margin-left: 80px;
+       font-size: 12px;
+       margin-top: -45px;
+     }
+     .oa p
+     {
+      font-size: 14px;
+      margin-left: 80px;
+      padding-top: 5px;
+      color: gray;
+     }
+    .ft
+    {
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 200px;
+      background-color: lightcoral;
+    }
+    .ta h3
+    {
+      text-align: center;
+      padding-top: 80px;
+      color: white;
+      font-size: 24px;
+    }
+   
