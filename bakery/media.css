@@ -1,0 +1,324 @@
+@media(max-width:500px)
+{
+    body 
+    {
+        overflow-x: hidden;
+    }
+    .main .title-info span{
+        /* height: 100%; */
+        display: block;
+    }
+    .main .icon ul 
+    {
+        width: 100%;
+    }
+    .main .icon ul li
+    {
+        margin: 0;
+        width: 100px;
+        display: block;
+    }
+    .icon ul li i 
+    {
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+
+
+
+    .nav .logo
+    {
+        height: 160px;
+        width: 40%;
+    }
+    .logo img
+    {
+        margin: 45px auto;
+    }
+    .nav .menu
+    {
+        height: 160px;
+        width: 60%;
+    }
+    
+    .menu ul li
+    {
+       
+        width: 30%;
+    }
+    .nav .btn
+    {
+        margin:10px auto;
+    }
+
+    .photo
+    {
+        border: 1px solid;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .photo button
+    {
+        width: 30%;
+    }
+    .cake .c1
+    {
+        height: 500px;
+        width: 100%;
+    }
+    .cake .c1 img 
+    {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .cake .c2 
+    {
+        height: 600px;
+        width: 100%;
+        text-align: center;
+    }
+    .cake .c2 h2 
+    {
+        padding-top: 50px;
+    }
+    .cake .btn 
+    {
+        margin:20px auto;
+    }
+
+    .pestry
+    {
+        height: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    .pestry .border
+    {
+        margin:0px 50px;
+    }
+    .pro .box1
+    {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    .pro .box2
+    {
+        width: 45%;
+        margin-bottom: 15px;
+
+    }
+    .pro .box3
+    {
+        width: 45%;
+        margin-bottom: 15px;
+
+    }
+    .pro .box4
+    {
+        width: 45%;
+        margin-bottom: 15px;
+
+    }
+    .uvw .pic
+    {
+        width: 100%;
+    }
+    .uvw .pic .xyz
+    {
+        height: 550px;
+        width: 65%;
+        margin-left: 100px;
+    }
+    .uvw .pic h1
+    {
+        left: 100px;
+    }
+    .uvw .pic .o
+    {
+    background-position: -30px 200px;
+
+    }
+    .para .para-span
+    {
+    margin: 0px 180px;
+
+    }
+    .uvw .para
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .uvw .site .btn
+    {
+        margin: 15px auto;
+    }
+    .my
+    {
+        height: auto;
+    }
+    .my h1
+    {
+        margin-left: 65px;
+    }
+    .app .d
+    {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .app .h 
+    {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 15px;
+
+    }
+    .app .r 
+    {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .da .db 
+    {
+        width: 100%;
+    }
+    .db-info span h3
+    {
+        padding-left: 10px;
+    }
+    .db-info span p 
+    {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .dc 
+    {
+        width: 100%;
+    }
+    .dc-info span h3
+    {
+        padding-left: 10px;
+    }
+    .dc-info span p 
+    {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .df 
+    {
+        height: 1480px;
+    }
+    .df .dg
+    {
+        width: 100%;
+    }
+    
+    .di
+    {
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        margin-top: 80%;
+    }
+    
+    .dj 
+    {
+        margin: auto;
+    }
+    .dk 
+    {
+        margin: auto;
+    }
+    .dl 
+    {
+        margin: auto;
+    }
+    .ac{
+        height: 500px;
+    }
+    .pq p 
+    {
+        line-height: 30px;
+    }
+    .ca h2
+    {
+        text-align: center;
+    }
+    
+    .cb .ha 
+    {
+        width: 100%;
+    }
+    .cb .hb 
+    {
+        width: 100%;
+    }
+    .cb .hc 
+    {
+        width: 100%;
+    }
+    .footer-img
+    {
+        background-size: cover;
+    }
+    span input
+    {
+        width: 450px;
+    }
+
+    .footer
+    {
+        padding: 0;
+
+    }
+    .footer-link .company
+    {
+        
+        text-align: start;
+    }
+    .footer-link .company-time
+    {
+        width: 100%;
+    padding: 10px 35px;        
+        
+    }
+    .company-time h3
+    {
+        text-align: start;
+    }
+    .company-time p
+{
+    text-align: start;
+
+}
+    .footer-link .contact
+    {
+        width: 100%;
+        text-align: start;
+    padding: 10px 35px;        
+
+
+    }
+    .contact h3
+    {
+        text-align: start;
+    }
+    .contact p 
+    {
+        text-align: start;
+    }
+    .footer-rights
+    {
+        padding: 5px 12px;
+        width: 100%;
+    }
+    .footer-rights ul li 
+    {
+        /* border: 1px solid; */
+        width: 150px;
+    }
+}
