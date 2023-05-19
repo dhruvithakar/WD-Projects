@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container
+        {
+            height: auto;
+            width: 100%;
+            border: 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo{
+            height: 50px;
+            width: 55%;
+            margin-top: 20px;
+            /* border: 1px solid; */
+        }
+        .container .nav-ul{
+            height: auto;
+            width: 40%;
+            
+            /* border: 1px solid; */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-left: 0;
+        }
+        .container .nav-ul .nav-li 
+        {
+            width: 120px;
+            height: 50px;
+            margin-left: 0;
+            border: 1px solid;
+            list-style: none;
+            text-align: center;
+            line-height: 50px;
+        }
+        .submenu
+        {
+            width: 500px;
+            position: absolute;
+            top: 60px;
+            right: 70px;
+
+        }
+        .submenu .sub-ul
+        {
+            height: auto;
+            width: 500px;
+            /* display: block; */
+            display: none;
+        }
+    
+        .submenu .sub-ul .sub-li
+        {
+            height: 50px;
+            width: 500px;
+            list-style: none;
+            border: 1px solid;
+        }
+        .fa-truck-fast
+        {
+            font-size: 48px;
+            display: block;
+            margin-left: 100px;
+        }
+        .fa-bars
+        {
+            font-size: 48px;
+            display: none;
+            position: absolute;
+            top: -50px;
+            right: 0;
+        }
+        
+        @media(max-width:700px)
+        {
+            .container .nav-ul
+            {
+                display: none;
+            }
+            .fa-bars
+            {
+                display: block;
+            }
+            .submenu .sub-ul
+            {
+                margin-top: 20px;
+                margin-left: 35px;
+            }
+            .submenu .sub-ul .sub-li
+            {
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+            }
+
+        }
+       
+
+    </style>
+    <script src="Navbar.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span><i class="fa-solid fa-truck-fast"></i></span>
+        </div>
+        <ul class="nav-ul">
+            <li class="nav-li">Home</li>
+            <li class="nav-li">About</li>
+            <li class="nav-li">Service</li>
+            <li class="nav-li">Contact</li>
+        </ul>
+
+        <div class="submenu">
+            <i class="fa-solid fa-bars" onclick="display()"></i>
+            <ul class="sub-ul">
+                <li class="sub-li">Home</li>
+                <li class="sub-li">About</li>
+                <li class="sub-li">Service</li>
+                <li class="sub-li">Contact</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
